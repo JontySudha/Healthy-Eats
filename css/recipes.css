@@ -1,0 +1,208 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f8f9fa;
+    color: #333;
+}
+.cont{
+    padding-left: 20px;
+}
+/* Header */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Form Styling (for recipe_admin.php) */
+form {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input[type="text"],
+form textarea,
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Recipe Cards (for public_recipe.php) */
+/* Recipe Cards (for public_recipe.php) */
+.recipe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.recipe-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+    height: 100%;
+}
+
+.recipe-card img {
+    width: 300px;  /* Width of the image */
+    height: 300px; /* Height of the image */
+    object-fit: contain;  /* Make sure the whole image fits within the container */
+    border-radius: 5px;
+}
+.recipe-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.recipe-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.recipe-card a:hover {
+    color: #0056b3;
+}
+
+.recipe-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Recipe Details (for detailed_recipe.php) */
+.recipe-details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.recipe-details img {
+    display: block;
+    margin: 20px auto;
+    width: 400px; /* Set width */
+    height: 400px; /* Set height */
+    object-fit: contain; /* Ensure the full image fits without cropping */
+    border-radius: 5px;
+}
+
+.recipe-details h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+.recipe-details h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.recipe-details p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.recipe-details a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.recipe-details a:hover {
+    color: #0056b3;
+}
+
+
+/* Table for Admin Page (recipe_admin.php) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Recipe Table Actions (Admin page) */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+
+a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a:active {
+    background-color: #3e8e41;
+}
+
+/* Buttons and Actions (Admin page) */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

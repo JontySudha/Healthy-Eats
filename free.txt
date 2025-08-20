@@ -1,0 +1,353 @@
+<?php
+include('header.php');
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/recipe.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+    <div class="breakfast_recipes">
+        
+    <div class="bdydesign">
+    <div class="titlecontainer">
+        <h1 class="title">Healthy Recipes</h1>
+    </div>
+    </div>
+
+
+        <div class="recipe-container">
+            <!-- Card Starts -->
+            <div class="card " style="width: 18rem; height: 33rem;">
+              <img src="images/avacado.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Avacado toast</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                
+                   <!-- Button trigger modal -->
+                   <button class="open-modal" data-modal-id="modal-1">Get Recipe</button>
+
+<!-- Modal -->
+<div class="modal" id="modal-1">
+                        <div class="modal-content ">
+                            <h2>Avacado toast</h2>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Ingredients:</p>
+                                        <ul type="1">
+                                        <li>1 ripe avocado</li>
+                                        <li>2 slices of whole-grain bread</li>
+                                        <li>2 eggs</li>
+                                        <li>Salt and pepper to taste</li>
+                                        <li>Red pepper flakes (optional)</li>
+                                        <li>Lemon juice (optional)</li>
+                                        </ul>
+                                    </div>  
+                                    <div class="col colimg">
+                                        <img src="images/avacado.jpg" class="modal-image" alt="Modal Image">
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Instructions:</p>
+                            <ul type="1">
+                            Toast the Bread: Toast the slices of whole-grain bread to your desired level of crispiness.
+Prepare the Avocado: While the bread is toasting, cut the avocado in half, remove the pit, and scoop out the flesh into a bowl. Mash the avocado with a fork and season with salt, pepper, and a squeeze of lemon juice if desired.
+Cook the Eggs: In a non-stick skillet, cook the eggs to your liking (fried, scrambled, or poached).
+Assemble: Spread the mashed avocado evenly over the toasted bread. Place the cooked eggs on top of the avocado spread.
+Serve: Sprinkle with red pepper flakes if you like a bit of heat. Serve immediately.
+                            </ul>
+                            <button class="close-modal" data-modal-id="modal-1">Close</button>
+                        </div>
+                    </div>
+                  <!-- modal end -->
+              </div>
+            </div>
+            <!-- card ends -->
+
+                        <!-- Card Starts -->
+                        <div class="card " style="width: 18rem; height: 33rem;">
+              <img src="images\PestoChickenSalad.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pesto Chicken Salad</h5>
+                <p class="card-text">For a healthy variation on creamy chicken salad, we've replaced half the mayonnaise with basil pesto. </p>
+                
+                   <!-- Button trigger modal -->
+                   <button class="open-modal" data-modal-id="modal-2">Get Recipe</button>
+
+<!-- Modal -->
+<div class="modal" id="modal-2">
+                        <div class="modal-content">
+                            <h2>Pesto Chicken Salad with Greens</h2>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Ingredients:</p>
+                                        <ul type="1">
+                                        <li>1KG boneless, skinless chicken breast, trimmed</li>
+                                        <li>¼ cup pesto, ¼ cup low-fat mayonnaise</li>
+                                        <li>3 tablespoons finely chopped red onion</li>
+                                        
+                                        <li>2 tablespoons red-wine vinega(optional)</li>
+                                        <li>¼ teaspoon salt, ¼ teaspoon ground pepper</li>
+                                        <li>500gm package mixed salad greens</li>
+                                        </ul>
+                                    </div>  
+                                    <div class="col colimg">
+                                        <img src="images\PestoChickenSalad.jpg" class="modal-image" alt="Modal Image">
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Instructions:</p>
+                            <ul type="1">
+                            <li><span style="font-weight: bold;">Step 1:</span> Place chicken in a medium saucepan and add water to cover by 1 inch. Bring to a boil. Cover, reduce heat to low and simmer gently until no longer pink in the middle, 10 to 15 minutes. </li>
+                            <li>Transfer to a clean cutting board; shred into bite-size pieces when cool enough to handle.</li>
+                            <li><span style="font-weight: bold;">Step 2:</span> Combine pesto, mayonnaise and onion in a medium bowl. Add the chicken and toss to coat. Whisk oil, vinegar, salt and pepper in a large bowl.</li>
+                             <li>Add greens and tomatoes and toss to coat. Divide the green salad among 4 plates and top with the chicken salad.</li>
+                            
+                            </ul>
+                            <button class="close-modal" data-modal-id="modal-2">Close</button>
+                        </div>
+                    </div>
+                  <!-- modal end -->
+              </div>
+            </div>
+            <!-- card ends -->
+
+                        <!-- Card Starts -->
+                        <div class="card " style="width: 18rem; height: 33rem;">
+              <img src="images/BlackBeanwrap.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Black Bean-Queso Wraps</h5>
+                <p class="card-text">These easy wraps are filled with black beans, corn, red pepper and creamy queso. They cook up quickly in a panini press.</p>
+                
+                   <!-- Button trigger modal -->
+                   <button class="open-modal" data-modal-id="modal-3">Get Recipe</button>
+
+<!-- Modal -->
+<div class="modal" id="modal-3">
+                        <div class="modal-content">
+                            <h2>Black Bean-Queso Wraps</h2>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Ingredients:</p>
+                                        <ul type="1">
+                                        <li>½ cup chopped red sweet pepper</li>
+                                        <li>¼ cup chopped poblano chile pepper</li>
+                                        <li>2 teaspoons canola oil</li>
+                                        <li>⅓ cup canned reduced-sodium black beans, rinsed and drained</li>
+                                        <li>2 tablespoons snipped fresh cilantro</li>
+                                        <li>4 8-inch whole-wheat low-carb flour tortillas</li>
+                                        <li>1 cup shredded queso Oaxaca or Monterey Jack cheese</li>
+                                        </ul>
+                                    </div>  
+                                    <div class="col colimg">
+                                        <img src="images/BlackBeanwrap.jpg" class="modal-image" alt="Modal Image">
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Instructions:</p>
+                            <ul type="1">
+                            <li><span style="font-weight: bold;">Step 1: </span>In a medium skillet cook sweet pepper and poblano pepper in hot oil over medium heat for 3 to 5 minutes or until crisp-tender, stirring occasionally. Stir in green onions. Remove from heat. Stir in beans, corn, cilantro, and salsa verde.</li>
+                            <li><span style="font-weight: bold;">Step 2: </span>Place tortillas between paper towels. Microwave on 100 percent power (high) 20 to 40 seconds or until warm. Spoon bean mixture onto tortillas just below centers. Top with cheese. Fold bottom edge of each tortilla up and over filling. Fold in opposite sides; roll up from the bottom. Lightly coat outsides of wraps with cooking spray.</li>
+                            <li><span style="font-weight: bold;">Step 3: </span>Preheat a panini press. Place wraps (half at a time, if necessary) in press. Cover and cook for 2 to 3 minutes or until tortillas are toasted and filling is heated through. </li>
+                            
+                            </ul>
+                            <button class="close-modal" data-modal-id="modal-3">Close</button>
+                        </div>
+                    </div>
+                  <!-- modal end -->
+              </div>
+            </div>
+            <!-- card ends -->
+
+            </div>
+
+
+        <div class="recipe-container">
+
+                    <!-- Card Starts -->
+                    <div class="card " style="width: 18rem; height: 33rem;">
+              <img src="images\Bruschetta.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bruschetta-Topped Chicken</h5>
+                <p class="card-text">A fresh tomato-and-basil topping on panko-crusted chicken cutlets makes an easy meal for family or casual entertaining.</p>
+                
+                   <!-- Button trigger modal -->
+                   <button class="open-modal" data-modal-id="modal-4">Get Recipe</button>
+
+<!-- Modal -->
+<div class="modal" id="modal-4">
+                        <div class="modal-content">
+                            <h2>Bruschetta-Topped Crispy Baked Chicken</h2>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Ingredients:</p>
+                                        <ul type="1">
+                                        <li>¼ cup flour, 1 egg</li>
+                                        <li>½ cup panko breadcrumbs ,¼ cup grated Parmesan cheese</li>
+                                        <li>1KG chicken cutlets, trimmed</li>
+                                        <li>Salt and pepper to taste, 1 clove garlic</li>
+                                        <li>1 tablespoon balsamic vinegar</li>
+                                        <li>2 cups cherry tomatoes, cut into eighths</li>
+                                        </ul>
+                                    </div>  
+                                    <div class="col colimg">
+                                        <img src="images\Bruschetta.jpg" class="modal-image" alt="Modal Image">
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Instructions:</p>
+                            <ul type="1">
+                            <li><span style="font-weight: bold;">Step 1: </span>Spread flour in a shallow dish or pie pan. Whisk egg and water in another shallow dish. Combine panko and Parmesan in a third dish.</li>
+                            <li><span style="font-weight: bold;">Step 2: </span> Sprinkle chicken with 1/4 teaspoon pepper and 1/8 teaspoon salt. Dredge both sides of each piece of chicken in the flour, shaking off any excess. Dip in the egg mixture, then dredge in the panko mixture. Coat both sides of the cutlets with cooking spray and place on the prepared rack. Bake until cooked through and starting to brown, 15 to 20 minutes.</li>
+                            <li><span style="font-weight: bold;">Step 3: </span>Cook the Eggs: In a non-stick skillet, cook the eggs to your liking (fried, scrambled, or poached).</li>
+                            <li><span style="font-weight: bold;">Step 4: </span> Meanwhile, whisk oil, vinegar, garlic and the remaining 1/4 teaspoon pepper and 1/8 teaspoon salt in a medium bowl. Add tomatoes and basil and stir to combine. Serve over the chicken.</li>
+                            <li><span style="font-weight: bold;">Step 5: </span> Sprinkle with red pepper flakes if you like a bit of heat. Serve immediately.</li>
+                            </ul>
+                            <button class="close-modal" data-modal-id="modal-4">Close</button>
+                        </div>
+                    </div>
+                  <!-- modal end -->
+              </div>
+            </div>
+            <!-- card ends -->
+
+            <!-- Card Starts -->
+            <div class="card " style="width: 18rem; height: 33rem;">
+              <img src="images/ChickpeaBurgers.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chickpea Burgers</h5>
+                <p class="card-text">These chickpea burgers are similar to falafel, but with the added whole-grain goodness of brown rice and wheat germ.</p>
+                
+                   <!-- Button trigger modal -->
+                   <button class="open-modal" data-modal-id="modal-5">Get Recipe</button>
+
+<!-- Modal -->
+<div class="modal" id="modal-5">
+                        <div class="modal-content">
+                            <h2>Chickpea Burgers</h2>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Ingredients:</p>
+                                        <ul type="1">
+                                        <li>2 tsp sesame seeds, 1 tsp ground coriander</li>
+                                        <li>4 scallions, chopped, 3 cloves garlic</li>
+                                        <li>250gm chickpeas Rinsed</li>
+                                        <li>1 cup cooked brown rice</li>
+                                        <li>3 tablespoons lemon juice</li>
+                                        <li>4 6-inch whole-wheat pita breads, warmed</li>
+                                        <li>4 tablespoons nonfat plain yogurt</li>
+                                        </ul>
+                                    </div>  
+                                    <div class="col colimg">
+                                        <img src="images/ChickpeaBurgers.jpg" class="modal-image" alt="Modal Image">
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Instructions:</p>
+                            <ul type="1">
+                            <li><span style="font-weight: bold;">Step 1: </span> Heat a small skillet over low heat. Add sesame seeds and toast, stirring, until golden brown, 2 to 4 minutes. Add coriander and cumin; cook, stirring, until fragrant, 10 to 20 seconds more. Transfer to a plate and let cool. </li>
+                            <li><span style="font-weight: bold;">Step 2: </span> Add oil to the pan and heat over medium heat. Add scallions and garlic; cook, stirring, until softened, about 2 minutes. Set aside. </li>
+                            <li><span style="font-weight: bold;">Step 3: </span> Position rack in upper third of oven; preheat broiler. (Alternatively, preheat a grill to medium-high.)</li>
+                            <li><span style="font-weight: bold;">Step 4: </span>Coarsely mash chickpeas in a medium bowl with a potato masher. Stir in rice, 1/3 cup wheat germ, lemon juice, salt, pepper, the reserved spice mixture and the scallion mixture; mix well. Shape the mixture into four 3/4-inch-thick patties. Place the remaining 1/3 cup wheat germ in a shallow dish and dredge the patties, pressing the wheat germ onto them firmly. If broiling, place the patties on a lightly oiled rack set on a baking sheet.</li>
+                            <li><span style="font-weight: bold;">Step 5: </span>Grill the patties until browned and heated through, about 3 minutes per side. Tuck the burgers into pitas with tomato slices, spinach and yogurt. </li>
+                            </ul>
+                            <button class="close-modal" data-modal-id="modal-5">Close</button>
+                        </div>
+                    </div>
+                  <!-- modal end -->
+              </div>
+            </div>
+            <!-- card ends -->
+
+                        <!-- Card Starts -->
+                        <div class="card " style="width: 18rem; height: 33rem;">
+              <img src="images/FalafelBowls.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Falafel Bowls</h5>
+                <p class="card-text">These quick couscous bowls come together in 20 minutes thanks to healthy convenience items like frozen falafel and steam-in-bag fresh green beans. </p>
+                
+                   <!-- Button trigger modal -->
+                   <button class="open-modal" data-modal-id="modal-6">Get Recipe</button>
+
+<!-- Modal -->
+<div class="modal" id="modal-6">
+                        <div class="modal-content">
+                            <h2>Falafel Bowls with Tahini Sauce</h2>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Ingredients:</p>
+                                        <ul type="1">
+                                        <li>Falafel according to number of serving (2 per server)</li>
+                                        <li>⅔ cup water, ½ cup whole-wheat couscous</li>
+                                        <li>0.5KG Green Beans</li>
+                                        <li>½ cup whole-wheat couscous</li>
+                                        <li>¼ cup pitted Kalamata olives</li>
+                                        <li>¼ cup crumbled feta cheese</li>
+                                        </ul>
+                                    </div>  
+                                    <div class="col colimg">
+                                        <img src="images/FalafelBowls.jpg" class="modal-image" alt="Modal Image">
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Instructions:</p>
+                            <ul type="1">
+                            <li><span style="font-weight: bold;">Step 1: </span> Bring water to a boil in a small saucepan. Stir in couscous, cover and remove from heat. Allow to stand until the liquid is absorbed, about 5 minutes. Fluff with a fork; set aside. </li>
+                            <li><span style="font-weight: bold;">Step 2: </span> Prepare Green Beans, Tahini Sauce. Divide among 4 small condiment containers with lids and refrigerate.</li>
+                            <li><span style="font-weight: bold;">Step 3: </span> Divide the green beans among 4 single-serving containers with lids. Top each with 1/2 cup couscous, one-fourth of the falafel and 1 tablespoon each olives and feta. Seal and refrigerate for up to 4 days.</li>
+                            <li><span style="font-weight: bold;">Step 4: </span> To serve, reheat in the microwave until heated through, about 2 minutes. Dress with tahini sauce just before eating.</li>
+                            </ul>
+                            <button class="close-modal" data-modal-id="modal-6">Close</button>
+                        </div>
+                    </div>
+                  <!-- modal end -->
+              </div>
+            </div>
+            <!-- card ends -->
+
+
+
+           
+
+        
+          </div>
+
+    </div>
+    <br>
+
+   
+
+    <script src="js/recipe.js"></script>
+</body>
+</html>
+<?php
+include('footer.php');
+?>
